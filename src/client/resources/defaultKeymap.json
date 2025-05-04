@@ -1,0 +1,10 @@
+{
+  "minecraft:netherite_sword": {
+    "modifierKey": 342,
+    "primaryKey": 71
+  },
+  "minecraft:diamond_pickaxe": {
+    "primaryKey": 71,
+    "modifierKey": 342
+  }
+}

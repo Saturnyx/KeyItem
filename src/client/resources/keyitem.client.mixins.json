@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "saturnyx.keyitem.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyboardMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
