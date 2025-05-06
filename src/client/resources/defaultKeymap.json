@@ -1,10 +1,70 @@
 {
-  "minecraft:netherite_sword": {
+  "give @s minecraft:netherite_sword": {
+    "modifierKey": 342,
+    "primaryKey": 78
+  },
+  "give @s minecraft:netherite_pickaxe": {
+    "modifierKey": 342,
+    "primaryKey": 79
+  },
+  "give @s minecraft:ender_pearl": {
+    "modifierKey": 342,
+    "primaryKey": 85
+  },
+  "give @s minecraft:crafting_table": {
+    "modifierKey": 342,
+    "primaryKey": 72
+  },
+  "give @s minecraft:water_bucket": {
+    "modifierKey": 342,
+    "primaryKey": 66
+  },
+  "give @s minecraft:dirt": {
+    "modifierKey": 342,
+    "primaryKey": 73
+  },
+  "give @s minecraft:golden_apple": {
     "modifierKey": 342,
     "primaryKey": 71
   },
-  "minecraft:diamond_pickaxe": {
-    "primaryKey": 71,
-    "modifierKey": 342
+  "give @s minecraft:elytra": {
+    "modifierKey": 342,
+    "primaryKey": 89
+  },
+  "give @s minecraft:shulker_box": {
+    "modifierKey": 342,
+    "primaryKey": 88
+  },
+  "give @s minecraft:flint_and_steel": {
+    "modifierKey": 342,
+    "primaryKey": 70
+  },
+  "give @s minecraft:tnt": {
+    "modifierKey": 342,
+    "primaryKey": 77
+  },
+  "give @s minecraft:chest": {
+    "modifierKey": 342,
+    "primaryKey": 67
+  },
+  "give @s minecraft:bow": {
+    "modifierKey": 342,
+    "primaryKey": 75
+  },
+  "give @s minecraft:arrow": {
+    "modifierKey": 342,
+    "primaryKey": 82
+  },
+  "give @s minecraft:torch": {
+    "modifierKey": 342,
+    "primaryKey": 74
+  },
+  "effect give @s minecraft:night_vision 60": {
+    "modifierKey": 342,
+    "primaryKey": 86
+  },
+  "clear": {
+    "modifierKey": 342,
+    "primaryKey": 259
   }
 }

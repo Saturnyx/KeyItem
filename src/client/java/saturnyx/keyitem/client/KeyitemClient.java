@@ -16,6 +16,7 @@ public class KeyitemClient implements ClientModInitializer {
         // Set the instance when initialized
         instance = this;
         keyConfig.loadKeymap();
+        System.out.println("KeyItem Client Initialized!");
     }
 
     // Static method to access the instance

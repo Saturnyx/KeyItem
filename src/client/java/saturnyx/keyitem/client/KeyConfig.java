@@ -108,21 +108,21 @@ public class KeyConfig {
     }
 
     // Add or update a keybind
-    public void setKeymap(String itemId, int modifierKey, int primaryKey) {
+    public void setKeymap(String command, int modifierKey, int primaryKey) {
         ItemKeyBind keyBind = new ItemKeyBind(modifierKey, primaryKey);
-        Keymap.put(itemId, keyBind);
+        Keymap.put(command, keyBind);
         saveKeymap();
     }
 
     // Remove a keybind
-    public void removeKeymap(String itemId) {
-        Keymap.remove(itemId);
+    public void removeKeymap(String command) {
+        Keymap.remove(command);
         saveKeymap();
     }
 
     // Get a specific keybind
-    public ItemKeyBind getKeymap(String itemId) {
-        return Keymap.get(itemId);
+    public ItemKeyBind getKeymap(String command) {
+        return Keymap.get(command);
     }
 
     // Get all keybinds
