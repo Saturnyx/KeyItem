@@ -16,6 +16,9 @@ public class KeyitemClient implements ClientModInitializer {
         // Set the instance when initialized
         instance = this;
         keyConfig.loadKeymap();
+        net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> {
+            dispatcher.register(KeyCommand.register());
+        });
         System.out.println("KeyItem Client Initialized!");
     }
 

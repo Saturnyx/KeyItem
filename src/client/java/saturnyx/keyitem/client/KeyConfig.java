@@ -1,14 +1,14 @@
 package saturnyx.keyitem.client;
 
 
+import com.google.gson.reflect.TypeToken;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.nio.file.Files;
 import java.lang.reflect.Type;
-
-import com.google.gson.reflect.TypeToken;
+import java.nio.file.Files;
 
 public class KeyConfig {
     private static final String CONFIG_FILENAME = "keymaps.json";
